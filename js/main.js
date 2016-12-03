@@ -54,4 +54,8 @@ $(document).ready(function () {
           $('.notification-box').hide();
         }
     });
+    
+    $( function() {
+    $( "#tabs" ).tabs();
+  } );
 });

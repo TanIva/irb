@@ -27,7 +27,7 @@
 <body>
     <header class="">
         <div class="col-xs-4">
-            <img class="logo fl" src="img/logo-02.png">
+            <a href="/"><img class="logo fl" src="img/logo-02.png"></a>
         </div>
         <div class="col-xs-4 navigation center-xs">
             <ul>
