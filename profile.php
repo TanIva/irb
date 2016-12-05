@@ -124,7 +124,7 @@
                     <p class="title">more mathes for you</p>
                     <hr>
                     
-                    <ul>
+                    <ul class="participants">
                         <li class="opacity">
                             <a href="">
                                 <div class="opacity opacity-image">
