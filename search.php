@@ -3,7 +3,7 @@
 <div class="bg">
     <div class="container-small search">
         
-        <h1>Search</h1>
+        <h1 class="title-segoe">Search</h1>
         <hr>
         
         <div class="row">
