@@ -2,7 +2,7 @@
 
 <div class="bg">
     <div class="container-small search mathes">
-        
+
         <h1 class="title-segoe">favorites</h1>
         <hr>
         

@@ -56,6 +56,6 @@ $(document).ready(function () {
     });
     
     $( function() {
-    $( "#tabs" ).tabs();
-  } );
+        $( "#tabs" ).tabs();
+    } );
 });

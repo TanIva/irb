@@ -911,3 +911,46 @@ ul.participants{
         }
     }
 }
+
+/*-------- modal ---------*/
+.modal{
+    .modal-dialog{
+        width: 562px;
+        &.modal-large{
+            width: 1000px;
+        }
+    }
+    .modal-content{
+        padding: 5px 30px;
+        border: none;
+        border-radius: 0;
+        background: rgba(255, 255, 255, 0.95);
+        .modal-header{
+            padding: 0;
+            border-bottom-color: #999898;
+           .close {
+                font-size: 35px;
+                margin-top: -6px;
+                margin-right: -23px;
+            } 
+            .title-segoe{
+                text-transform: none;
+                margin-bottom: 25px;
+            }
+        }
+        .modal-body{
+        }
+        .modal-footer {
+             text-align: center;
+             border-top: none;
+        }
+        .pinkBtn{
+            padding: 8px 52px;
+            font-size: 14pt;
+        }
+        p{
+            font-weight: lighter;
+            font-size: 14pt;
+        }
+    }
+}
