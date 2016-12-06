@@ -12,6 +12,7 @@ $main-bg: #fbf0da;
 $grey-bg: #f5f0eb;
 $yellow: #eeb640;
 $black: #20242a;
+$orange: #f7941d;
 
 html {font-size: 16px;}
 body {
@@ -915,7 +916,8 @@ ul.participants{
 /*-------- modal ---------*/
 .modal{
     .modal-dialog{
-        width: 562px;
+        width: 582px;
+        margin: 120px auto 70px;
         &.modal-large{
             width: 1000px;
         }
@@ -939,18 +941,112 @@ ul.participants{
             }
         }
         .modal-body{
+            textarea{
+                border-color: #eee;
+                border-radius: 10px;
+                resize: none;
+                height: 130px;
+                font-size: 14pt;
+            }
         }
         .modal-footer {
-             text-align: center;
-             border-top: none;
+            text-align: center;
+            border-top: none;
+            p{
+                cursor: pointer;
+                margin-top: 15px;
+            }
         }
         .pinkBtn{
             padding: 8px 52px;
             font-size: 14pt;
+            letter-spacing: 3px;
         }
         p{
             font-weight: lighter;
             font-size: 14pt;
         }
     }
+    .title-segoe {
+        font-size: 32pt;
+    }
+}
+
+
+
+/*------------- star rating -----------*/
+.star-rating{
+    font-size: 0;
+    margin-bottom: 10px;
+    .star-rating_wrap{
+        display: inline-block;
+        font-size: 1rem;
+        &:after{
+        content: "";
+        display: table;
+        clear: both;
+        }
+        .star-rating_ico{
+            float: right;
+            padding-left: 2px;
+            cursor: pointer;
+            color: $orange;
+            font-size: 2em;
+            &:last-child{
+                padding-left: 0;
+            }
+        }
+        .star-rating_input{
+            display: none;
+        }
+        .star-rating_ico:hover:before,
+        .star-rating_ico:hover ~ .star-rating_ico:before,
+        .star-rating_input:checked ~ .star-rating_ico:before
+        {
+            content: "\f005";
+        }
+    }
+}
+
+/*----------- checkbox and radio ------*/
+.checkbox label, .radio label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    margin-right: 20px;
+    padding-left: 25px;
+    font-size: 14pt;
+    text-transform: uppercase;
+}
+input[type=radio], input[type=checkbox] {
+    display: none;
+    &:checked+label{
+        font-weight: bold;
+    }
+}
+label:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 6px;
+    border: 2px solid $main;
+    background-color: #fff;
+}
+.radio label:before{
+    border-radius: 8px;
+}
+input[type=radio]:checked + label:before {
+    background-color: $main;
+}
+
+input[type=checkbox]:checked + label:before {
+    content: "\2713";
+    font-size: 20px;
+    color: $main;
+    text-align: center;
+    line-height: 8px;
 }
