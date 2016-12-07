@@ -2,7 +2,19 @@
 <footer class="center-xs">
     <div class="container">
         <img class="logo" src="img/logo-01.png">
-        <div class="slog ls3">leading dating site!!</div>
+        
+        
+        
+        <div class="language ls3">
+            <span>Language:</span>
+            <div class="change-lang">
+                <a class="active-lang" href="">English</a>
+                <a class="disabled-lang" href="">Russian</a>
+            </div>
+        </div>
+        
+        
+        
         <div class="row footer ls3">
             <div class="col-xs-4">
                 <ul>
