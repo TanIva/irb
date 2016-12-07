@@ -56,43 +56,45 @@
         </div>
         <div class="col-xs-2 notification fr">
             <ul>
-                <li class="star"><a href="">+2 <i class="fa fa-star" aria-hidden="true"></i></a></li>
+                <li class="star">
+                    <a href="">+2 <i class="fa fa-star" aria-hidden="true"></i></a>
+                    <div class="notification-box">
+                        <ul>
+                            <li>
+                                <a class="notification-image fl" href="">
+                                    <img src="img/paragraph.jpg">
+                                </a>
+                                <div class="notification-info">
+                                    <p class="notification-name">
+                                        <a class="" href="">Tony Good</a>
+                                    </p>
+                                    <p class="notification-age ls3">40 YRS</p>
+                                    <div class="notification-act">
+                                        <a class="pinkBtn" href="">accept</a>
+                                        <a class="reject" href="">reject</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="notification-image fl" href="">
+                                    <img src="img/paragraph.jpg">
+                                </a>
+                                <div class="notification-info">
+                                    <p class="notification-name">
+                                        <a class="" href="">Tony Good</a>
+                                    </p>
+                                    <p class="notification-age ls3">40 YRS</p>
+                                    <div class="notification-act">
+                                        <a class="pinkBtn" href="">accept</a>
+                                        <a class="reject" href="">reject</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
                 <li class="wink"><a href="">+1 <i class="fa fa-smile-o" aria-hidden="true"></i></a></li>
                 <li class="message"><a href="">+11 <i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
             </ul>
-            <div class="notification-box">
-                <ul>
-                    <li>
-                        <a class="notification-image fl" href="">
-                            <img src="img/paragraph.jpg">
-                        </a>
-                        <div class="notification-info">
-                            <p class="notification-name">
-                                <a class="" href="">Tony Good</a>
-                            </p>
-                            <p class="notification-age ls3">40 YRS</p>
-                            <div class="notification-act">
-                                <a class="pinkBtn" href="">accept</a>
-                                <a class="reject" href="">reject</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <a class="notification-image fl" href="">
-                            <img src="img/paragraph.jpg">
-                        </a>
-                        <div class="notification-info">
-                            <p class="notification-name">
-                                <a class="" href="">Tony Good</a>
-                            </p>
-                            <p class="notification-age ls3">40 YRS</p>
-                            <div class="notification-act">
-                                <a class="pinkBtn" href="">accept</a>
-                                <a class="reject" href="">reject</a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
         </div>
     </header>
