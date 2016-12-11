@@ -111,6 +111,9 @@ hr {
   left: 0;
   top: 0; }
 
+.sidebar-bigger {
+  width: 286px; }
+
 .pinkBtn {
   background-color: #e22250;
   border-radius: 40px;

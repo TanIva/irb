@@ -81,11 +81,15 @@ hr{
     margin-left: 265px;
     min-height: 850px;
 }
+
 .sidebar{
     width: 248px;
     position: absolute;
     left: 0;
     top: 0;
+}
+.sidebar-bigger{
+    width: 286px;
 }
 .pinkBtn{
     background-color: $main;  

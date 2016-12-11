@@ -791,3 +791,188 @@ header{
         letter-spacing: 3px;
     }
 }
+
+
+.chat{
+    img.chat-image{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .chat-status{
+        font-size: 12pt;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        line-height: 14px;
+        &.online{
+            font-weight: bold;
+            color: #8dc63f;
+        }
+    }
+    .dialog-person{
+        .chat-box{
+            cursor: pointer;
+            width: 100%;
+            >ul{
+                list-style: none;
+                padding: 0px;
+                margin-bottom: 0px;
+                >li{
+                    height: 110px;
+                    cursor: auto;
+                    padding: 5px;
+                    background-color: #fff;
+                    margin-bottom: 7px;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                    &.active{
+                        background-color: $main;
+                        .chat-info{
+                            p{
+                                color: #fff;
+                            }
+                        }
+                    }
+
+                    .chat-info{
+                        position: relative;
+                        margin-left: 110px;
+                        height: 100%;
+                        p{
+                            margin: 0;
+                        }
+                        .chat-name{
+                            @extend .segoe-bold;
+                            font-size: 18pt;
+                            line-height: 22px;
+                        }
+                        .chat-age{
+                            font-size: 12pt;
+                            margin: 0;
+                            line-height: 34px;
+                        }
+                        .chat-status{
+                            position: absolute;
+                            bottom: 0;
+                            margin-bottom: 0;
+                            font-size: 12pt;
+                            line-height: 14px;
+                        }
+                        .new-message{
+                            font-weight: 200;
+                            font-style: italic;
+                            font-size: 14pt;
+                            line-height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .content-chat{
+        width: 970px;
+        margin-left: 296px;
+        background-color: #fff;
+        padding: 10px;
+        .chat-header{
+            height: 103px;
+            .chat-info{
+                margin-left: 115px;
+            }
+            h2{
+                @extend .segoe-light;
+                font-size: 24pt;
+                margin: 0;
+            }
+            .chat-status{
+                line-height: 30px;
+                margin: 0;
+            }
+            .menu-profile{
+                text-align: justify;
+                line-height: 0;
+                font-size: 1px;
+                text-justify: newspaper;
+                zoom:1;
+                text-align-last: justify;
+                &:after {
+                    width: 100%;
+                    height: 0px;
+                    visibility: hidden;
+                    overflow: hidden;
+                    content: '';
+                    display: inline-block;
+                }
+                
+                a{
+                    width: auto;
+                    display: inline-block;
+                    margin-top: 0;
+                    padding: 0px 33px;
+                    line-height: 38px;
+                    font-size: 18pt;
+                    vertical-align: top;
+                    //display : inline;
+                    //zoom : 1;
+                    i{
+                        margin-top: 9px;
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+        .chat-message{
+            textarea{
+                width: 100%;
+                height: 128px;
+                resize: none;
+                padding: 5px 10px;
+            }
+            textarea[placeholder]          {font-style: italic;}
+            textarea::-moz-placeholder     {font-style: italic;} 
+            textarea:-moz-placeholder      {font-style: italic;} 
+            textarea:-ms-input-placeholder {font-style: italic;}   
+            
+            .pinkBtn{
+                border-radius: 0;
+                padding: 0px 33px;
+                line-height: 38px;
+                font-size: 18pt;
+                text-transform: inherit;
+                font-weight: normal;
+                margin-top: 15px;
+                i{
+                    margin-right: 20px;
+                }
+            }
+        }
+        .chat-dialog{
+            min-height: 485px;
+            .message{
+                min-height: 100px;
+                margin-top: 20px;
+                .message-text{
+                    margin-left: 125px;
+                    .name{
+                        @extend .segoe-bold;
+                        line-height: 1;
+                    }
+                    .text{
+                        color: #505357;
+                        font-size: 14pt;
+                        margin: 10px 0;
+                        line-height: 22px;
+                    }
+                    .date{
+                        text-transform: uppercase;
+                        letter-spacing: 3px;
+                        color: #505357;
+                        font-size: 12pt;
+                    }
+                }
+            }
+        }
+    }
+}
