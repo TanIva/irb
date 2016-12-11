@@ -46,7 +46,7 @@
                     <input type="text" placeholder="ZIP CODE">
                     
                     <div class="request">
-                        <button class="pinkBtn">request consultation</button>
+                        <button class="pinkBtn" type="submit">request consultation</button>
                         <!--<p class="checkConsultation">request sent</p>-->
                     </div>
                 </form>

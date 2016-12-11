@@ -1152,6 +1152,17 @@ ul.participants {
   font-size: 38pt;
   text-transform: uppercase; }
 
+input {
+  width: 100%;
+  height: 70px;
+  line-height: 71px;
+  padding: 25px 20px;
+  border-radius: 10px;
+  color: #000;
+  margin-bottom: 25px;
+  font-size: 24pt;
+  border: none; }
+
 section.header {
   background-image: url("../img/homepage_bg.jpg");
   background-size: 100% !important;
@@ -1188,15 +1199,6 @@ section.header {
     margin-top: 88px;
     margin-right: 170px;
     padding: 50px 35px; }
-    section.header .regForm input {
-      width: 100%;
-      height: 70px;
-      line-height: 71px;
-      padding: 25px 20px;
-      border-radius: 10px;
-      color: #000;
-      margin-bottom: 25px;
-      font-size: 24pt; }
     section.header .regForm .request {
       font-size: 20pt;
       font-weight: bold; }
@@ -1342,7 +1344,7 @@ section.clients {
       margin: 24px calc(50% - 69px); }
 
 footer {
-  background-color: #fbf0da; }
+  background-color: #fff; }
   footer .logo {
     width: 374px;
     height: 140px; }
@@ -1888,5 +1890,36 @@ header {
           letter-spacing: 3px;
           color: #505357;
           font-size: 12pt; }
+
+.contact {
+  padding: 14px 34px 0; }
+  .contact p {
+    text-transform: uppercase;
+    font-size: 15.75pt;
+    letter-spacing: 3px;
+    margin: 8px 0 16px; }
+  .contact .m0 {
+    margin-top: 44px; }
+    .contact .m0 > p {
+      margin: 0;
+      line-height: 1; }
+  .contact input {
+    height: 50px;
+    font-size: 18pt;
+    width: 488px; }
+  .contact textarea {
+    border-radius: 10px;
+    resize: none;
+    padding: 25px 20px;
+    border: none;
+    font-size: 18pt;
+    height: 130px;
+    width: 488px; }
+  .contact button {
+    height: 46px;
+    padding: 0 70px;
+    margin: 10px 0 26px;
+    font-size: 14.46pt;
+    letter-spacing: 3px; }
 
 /*# sourceMappingURL=style.css.map */
