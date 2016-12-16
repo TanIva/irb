@@ -36,7 +36,7 @@
             <div class="menu-profile">
                 <a class="pinkBtn" href=""><i class="fa fa-star" aria-hidden="true"></i> Add to Favorite</a>
                 <a class="pinkBtn" href=""><i class="fa fa-envelope-o" aria-hidden="true"></i> Send Message</a>
-                <a class="pinkBtn" href=""><i class="fa fa-smile-o" aria-hidden="true"></i> Wink</a>
+                <a class="pinkBtn" href=""><i class="smile"></i> Wink</a>
                 
                 <a class="greyBtn" href=""><i class="fa fa-ban" aria-hidden="true"></i> Block</a>
                 <a class="greyBtn" href=""><i class="fa fa-exclamation" aria-hidden="true"></i> Report</a>

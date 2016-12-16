@@ -96,7 +96,9 @@ hr {
   margin-bottom: 15px; }
 
 .bg {
-  background-color: #ddd;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 34px;
   padding-bottom: 45px; }
 
@@ -122,7 +124,8 @@ hr {
   font-weight: bold;
   text-transform: uppercase; }
   .pinkBtn:hover {
-    color: #fff; }
+    color: #fff;
+    background-color: rgba(226, 34, 80, 0.3); }
 
 .greyBtn {
   background-color: #cdcdcd;

@@ -93,7 +93,7 @@
                         </ul>
                     </div>
                 </li>
-                <li class="wink"><a href="">+1 <i class="fa fa-smile-o" aria-hidden="true"></i></a></li>
+                <li class="wink"><a href="">+1 <i class="smile"></i></a></li>
                 <li class="message"><a href="">+11 <i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
             </ul>
         </div>
