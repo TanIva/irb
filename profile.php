@@ -16,17 +16,17 @@
                 <div class="photos-profile">
                     <ul>
                         <li>
-                            <a href="">
+                            <a href="img/paragraph.jpg" data-lightbox="profile">
                                 <img class="" src="img/paragraph.jpg">
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="img/paragraph.jpg" data-lightbox="profile">
                                 <img class="" src="img/paragraph.jpg">
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="img/paragraph.jpg" data-lightbox="profile">
                                 <img class="" src="img/paragraph.jpg">
                             </a>
                         </li>
@@ -107,16 +107,16 @@
                     <hr>
                     
                     <div class="img">
-                        <a href=""><img class="" src="img/paragraph.jpg"></a>
-                        <a href=""><img class="" src="img/paragraph.jpg"></a>
-                        <a href=""><img class="" src="img/paragraph.jpg"></a>
-                        <a href=""><img class="" src="img/paragraph.jpg"></a>
-                        <a href=""><img class="" src="img/paragraph.jpg"></a>
-                        <a href=""><img class="" src="img/paragraph.jpg"></a>
-                        <a href=""><img class="" src="img/paragraph.jpg"></a>
-                        <a href=""><img class="" src="img/paragraph.jpg"></a>
-                        <a href=""><img class="" src="img/paragraph.jpg"></a>
-                        <a href=""><img class="" src="img/paragraph.jpg"></a>
+                        <a href=""><img class="" src="img/favorite-things/reading.jpg"></a>
+                        <a href=""><img class="" src="img/favorite-things/shopping.jpg"></a>
+                        <a href=""><img class="" src="img/favorite-things/cinema.jpg"></a>
+                        <a href=""><img class="" src="img/favorite-things/cars.jpg"></a>
+                        <a href=""><img class="" src="img/favorite-things/football.jpg"></a>
+                        <a href=""><img class="" src="img/favorite-things/flying.jpg"></a>
+                        <a href=""><img class="" src="img/favorite-things/cooking.jpg"></a>
+                        <a href=""><img class="" src="img/favorite-things/handiworking.jpg"></a>
+                        <a href=""><img class="" src="img/favorite-things/drawing.jpg"></a>
+                        <a href="" class="add-thing"><div>+</div></a>
                     </div>
 
                 </div>

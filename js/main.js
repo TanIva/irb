@@ -30,9 +30,9 @@ $(document).ready(function () {
         }
     });
     
-    $( function() {
-        $( "#tabs" ).tabs();
-    } );
+    
+    $( "#tabs" ).tabs();
+    
     
     $('.chat-box').on('click', 'li', function(){
         $(".chat-box li").removeClass("active");

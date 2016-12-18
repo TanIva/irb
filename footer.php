@@ -60,6 +60,7 @@
 <script src="js/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="lightbox/js/lightbox.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
