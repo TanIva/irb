@@ -149,7 +149,7 @@ input[type=radio], input[type=checkbox] {
         font-weight: bold;
     }
 }
-label:before {
+label:not(.star-rating_ico):before {
     content: "";
     display: inline-block;
     width: 16px;
@@ -164,7 +164,7 @@ label:before {
 .radio label:before{
     border-radius: 8px;
 }
-input[type=radio]:checked + label:before {
+input[type=radio]:not(.star-rating_input):checked + label:before {
     background-color: $main;
 }
 input[type=checkbox]:checked + label:before {
