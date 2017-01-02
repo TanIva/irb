@@ -327,6 +327,9 @@ footer{
                 }
                 .disabled-lang{
                     display: block;
+                    &:hover{
+                        background-color: rgba(226, 34, 80, 0.2);
+                    }
                 }
             }
             .active-lang{
